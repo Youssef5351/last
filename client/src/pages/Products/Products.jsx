@@ -50,7 +50,7 @@ const Products = () => {
             <input
               type="range"
               min={0}
-              max={1000}
+              max={10000}
               onChange={(e) => setMaxPrice(e.target.value)}
             />
             <span>{maxPrice}</span>
@@ -76,7 +76,7 @@ const Products = () => {
               name="price"
               onChange={(e) => setSort("desc")}
             />
-            <label htmlFor="desc">Price (Highest first)</label>
+            <label htmlFor="description">Price (Highest first)</label>
           </div>
         </div>
       </div>

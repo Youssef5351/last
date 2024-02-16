@@ -55,7 +55,7 @@ const Product = () => {
           <div className="right">
             <h1>{data?.attributes?.title}</h1>
             <span className="price">${data?.attributes?.price}</span>
-            <p>{data?.attributes?.desc}</p>
+            <p>{data?.attributes?.description}</p>
             <div className="quantity">
               <button
                 onClick={() =>
